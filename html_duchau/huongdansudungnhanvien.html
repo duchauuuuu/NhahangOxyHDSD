@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/tintuc.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <script src="../boostrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/tintuc_responsive.css">
+    <title>Nhà hàng Oxy</title>
+    <script src="../js/loader.js"></script>
+</head>
+
+<body>
+    <div class="loader" style="width: 100%;"><p style="position: absolute; z-index: 1;">Đang loading</p></div>
+    <header class="header fixed">
+        <div class="main-content">
+            <div class="body">
+                <div class="head-top">
+                    <div class="khoi-logo">
+                        <label for="menu-checkbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                class="menu-header_icon">
+                                <path fill="currentColor"
+                                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                            </svg></label>
+
+                       
+                        <div class="logo"><a href="../html_duchau/tintuc.html"><img src="../img/logoNhaHang-removebg-preview.png" alt="HVH Drinks" class="img-logo" id="showloader"></a>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <!-- <input type="text" name="search" placeholder="Tìm kiếm">
+                        <a href="#!" class="icon-timkiem"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #cca336;"></i></a>
+                        <div class="products">
+                    
+                            </div> -->
+                    
+                    </div>
+                    <div class="login">
+                        <!-- <h1><a href="../RegularException/html/Index.html" style="color: #cca336;" id="showloader">Đăng nhập</a></h1>
+                        <button class="btn"><span>Giỏ hàng</span> <a href="#!"><i class="fa-solid fa-cart-shopping"
+                                    style="color: #1e4b24;"></i></a></button>
+                        <div class="toggle-switch">
+                            <label for="switch" style="width: 100px;">
+                                <input type="checkbox" name="switch" id="switch" hidden>
+                                <span class="slider"></span>
+                            </label>
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="head-bottom">
+                    <ul id="navbar_list--pc">
+                        <li style="margin-left: -1300px;">
+                            <a href="../html_duchau/tintuc.html" id="showloader">Trang chủ</a>
+                        </li>
+                        <!-- <li class="drop-menu">
+                            <a href="#!">Sản phẩm <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li style="width: 100%;">
+                                    <a href="../Baitapnhom_Hoang/html/thucuong.html" id="showloader">Đồ uống</a>
+                                </li>
+                                <li style="width: 120px;">
+                                    <a href="../Baitapnhom_Hoang/html/bakery.html" id="showloader">Tráng miệng</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="drop-menu">
+                            <a>Tin tức & Sự kiện <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li style="width: 200px">
+                                    <a href="../html_duchau/tintuc.html" id="showloader">Tin tức khuyến mãi</a>
+                                </li>
+                                <li style="width: 200px;">
+                                    <a href="../html_duchau/sukien.html" id="showloader">Sự kiện</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../html_duchau/tuyendung.html"  id="showloader">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/gioithieu.html" id="showloader">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/chinhsachthanhvien.html" id="showloader">Thẻ thành viên</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/chinhsachbaomatthongtin.html" id="showloader">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="../RegularException/html/Contact.html" id="showloader">Liên hệ</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-header">
+        <!-- table/mobile menu -->
+        <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
+        <label for="menu-checkbox" class="menu-overlay"></label>
+
+        <div class="menu-drawer">
+            <div class="menu-drawer_top">
+                <div> <a href="#!"><img src="../img/logo.png" alt="HVH Drinks" class="menu-drawer_logo"
+                            style="width: 60px; height: 60px;"></a></div>
+                <label for="menu-checkbox"><svg class="close_menu" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+                    </svg></label>
+            </div>
+            <!-- nav mobile -->
+            <ul id="navbar_list--mobile"></ul>
+            <script>
+                const navPC = document.querySelector("#navbar_list--pc")
+                const navMobile = document.querySelector("#navbar_list--mobile")
+                navMobile.innerHTML = navPC.innerHTML
+            </script>
+            <div class="separate">
+
+            </div>
+            <div class="show-on-mobile">
+                <h1><a href="#!" style="color: #cca336;">Đăng nhập</a></h1>
+                <button class="btn"><span>Giỏ hàng</span> <a href="#!"><i class="fa-solid fa-cart-shopping"
+                            style="color: #1e4b24;"></i></a></button>
+
+            </div>
+
+        </div>
+    </div>
+   <main>
+ <div class="container">
+        <section class="section_tintuc">
+            <div class="box_tintuc-left" style="top:-1550px">
+                <div class="tintuc_menu_title" style="color: #d3b673;">HƯỚNG DẪN SỬ DỤNG</div>
+                <div class="tintuc_menu_list-item">
+                    <ul>
+                        <li>
+                            <a href="../html_duchau/huongdansudungnhanvien.html" style="color: #282828;font-weight: 600;">Chức năng của nhân viên </a>
+                        </li>
+                        <li><a href="../html_duchau/huongdansudungquanly.html" style="color: #282828;font-weight: 600;">Chức năng của quản lý</a></li>
+                        <!-- <li><a href="../html_duchau/sukien.html" style="color: #282828;font-weight: 600;">Sự kiện</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="box_tintuc_right" style="margin-left:30% ;">
+                  <div class="box_tintuc-main" style="color: #282828;" >Hướng dẫn sử dụng chức năng nhân viên ( Quản lý cũng sẽ sử dụng được tất cả chức năng của nhân viên)</div>
+                  <div class="box_tintuc-content" style="margin-top: 2%;">
+                    
+                    <div>
+                        <p style="max-width: 500px;text-align: justify; font-size: 16px;white-space: pre-wrap;">
+<b style="font-size: 20px; color: orange;">Chức năng Đặt ngay (Đặt tại quán)</b>
+
+Bước 1: Chọn chức năng “Quản Lý Đặt Bàn” trên giao diện Màn hình chính
+
+(Hướng dẫn: Tại giao diện Quản Lý Đặt bàn, có thể theo dõi bàn theo từng khu vực, từng trạng thái khác nhau. Bạn có thể nhấn các nút hỗ trợ chuyển sang các Vị trí khác như “Gần cửa sổ”, “Giữa phòng”, “Ngoài trời” hoặc “Tầng 1”, “Tầng 2”, Tầng 3” nếu không tìm thấy bàn trống; hoặc có thể tìm kiếm bằng chức năng “Tìm kiếm”, “Lọc”)
+
+Bước 2: Chọn một bàn ở trạng thái “Trống”.
+
+Bước 3: Cửa sổ Dialog hiện ra
+Tại đây người dùng hỏi khách hàng có tài khoản không?
+Trường hợp 1: Khách hàng có tài khoản
+Người dùng nhập số điện thoại của khách hàng → Nhấn Enter để lấy thông tin từ Cơ sở dữ liệu.
+Trường hợp 2: Khách hàng không có tài khoản
+Người dùng hỏi khách hàng có muốn lưu thông tin để tích điểm hay không. Nếu “có” thì xin số điện thoại khách hàng → Nhấn Enter để check dữ liệu từ Cơ sở dữ liệu → Nhấn nút tạo khách hàng kế bên. Nếu “không” thì không cần tạo.
+Tiếp theo, Người dùng ghi nhận số lượng khách.
+Cuối cùng, nhấn nút “Đặt ngay”.
+
+Bước 4: Một Option “Xác nhận đặt” hiện lên. Chọn “Yes” để đặt bàn
+
+Sau khi nhấn Yes sẽ hoàn tất đặt bàn, bàn sẽ tự động chuyển sang trạng thái “Đang sử dụng” và lưu thông tin vào lịch sử đặt bàn.
+
+<b style="font-size: 20px;color: orange;">Chức năng Gọi món</b>
+
+Bước 1: Tại cửa sổ Dialog trên. Nhấn nút “Gọi món”
+
+Bước 2: Khi hiển thị giao diện “Gọi món” 
+
+Bước 3: Người dùng có thể tìm kiếm món ăn bằng ô tìm kiếm và nhấn Enter.
+
+Và cũng có thể lọc theo danh mục món ăn tùy chọn bằng cách người dùng ấn vào danh mục để lọc 
+
+Và khi muốn quay lại danh sách món ăn người dùng có thể nhấn nút làm mới 
+
+Bước 4: Người dùng tiến hành chọn món và món ăn sẽ được hiển thị bên “Danh sách gọi món”
+
+có thể ấn nút xóa món để có thể hủy món ra khỏi danh sách, và khách hàng cũng có thể nhập số lượng món hoặc tăng giảm số lượng món tùy chọn : 
+
+Đối với món ăn được gọi thì số lượng không thể bé hơn 1, nếu bé hơn 1 thì sẽ có thông báo “ Số lượng món ăn phải lớn hơn 1 “
+Sau khi gọi món xong thì tổng tiền cũng như các món ăn được giảm giá sẽ hiển thị đầy đủ cho người dùng xem
+
+Bước 5 : Sau khi gọi món xong ấn “ gửi thực đơn cho bếp “ và  ấn “ lưu hóa đơn “, sau đó hóa đơn sẽ được lưu lại và hiển thị thông báo thành công.
+
+<b style="font-size: 20px;color: orange;">Chức năng Đặt trước (Đặt qua gọi điện hoặc phương thức khác)</b>
+
+Bước 1: Tại giao diện Màn hình chính, Nhấn nút “Đặt trước”
+
+Bước 2: Cửa sổ Dialog hiện lên. Tại đây thực hiện 
+Nhập số điện thoại Khách hàng (Bắt buộc) → nhấn Enter để kiểm tra dữ liệu → Nếu có thì hệ thống sẽ lấy tên khách hàng lên. Nếu không thì “bắt buộc” tạo khách hàng. 
+Tiếp theo ghi nhận số lượng khách và ngày giờ khách đến nhận bàn.
+Chọn bàn theo yêu cầu của khách hàng (Bắt buộc).
+Đặt món và ghi chú theo yêu cầu của khách (Không bắt buộc).
+Nhấn nút “Đặt” để đặt bàn.
+
+Bước 3: Một Option “Xác nhận đặt” hiện lên. Nhấn “Yes” để đặt
+
+Sau khi nhấn “Yes”. Hệ thống gửi “Message” thông báo đặt bàn thành công và thông tin đặt bàn của khách đã được lưu vào lịch sử đặt bàn.
+
+<b style="font-size: 20px;color: orange;">Chức năng Chuyển bàn</b>
+
+Bước 1: Tại giao diện “Quản Lý Đặt Bàn”. Nhập mã bàn cần chuyển (Lưu ý: Bàn phải ở trạng thái: “Đang sử dụng”) và nhấn nút “Chuyển bàn”.
+
+sau khi nhấn nút “Chuyển bàn”. Một thông báo hiện lên hãy nhấn OK
+
+Bước 2: Chọn một bàn muốn chuyển đến (Lưu ý: bàn đó phải ở trạng thái “Trống”) và nhấn Yes để xác nhận chuyển bàn.
+
+sau khi nhấn Yes thì trạng thái của bàn cần chuyển trở về “Trống” còn bàn mới chuyển đến sẽ sang trạng thái “Đang sử dụng” và hiển thị thông báo “Chuyển bàn thành công”.
+
+<b style="font-size: 20px;color: orange;">Chức năng Gộp bàn</b>
+
+Bước 1: Tại giao diện Màn hình chính, Nhấn nút “Gộp bàn” : 
+
+* Hướng dẫn : 
+Ấn nút gộp bàn được hiển thị trên giao diện : 
+Trường hợp để gộp được bàn : 
+2 bàn phải có trạng thái “ đang  sử dụng “  
+2 bàn phải có “ vị trí “ và “ tầng “ cùng nhau
+=> Nếu không nằm trong các trường hợp đấy hệ thống sẽ hiển thị lỗi cụ thể 
+Sau khi ấn gộp bàn sẽ hiển 2 ô trống. Người dùng bắt buộc nhập theo thứ tự : 
+Bàn chính sẽ được nhập đầu tiên : ở đây người dùng nhập bàn chính mục đích để thông tin các món ăn ở bàn phụ có thể gộp vào bàn chính.
+Sau khi nhập mã bàn chính xong thì người dùng sẽ nhập mã bàn phụ. Lúc này tất cả thông tin món ăn ở bàn phụ sẽ được chuyển sang bàn chính để giúp tiện thanh toanh trên hóa đơn chính
+Bước 2: Sau khi gộp bàn hoàn tất , hệ thống sẽ hiện thị thông báo thành công.
+
+Bước 3: Khi người dùng muốn gọi món thêm cho bàn :  
+Lúc này, bàn phụ sẽ không được gọi món nữa mà có thể gọi món thông qua bàn chính
+
+Và người dùng sẽ qua bàn chính để có thể gọi thêm món. 
+Bước 4: Khi người dùng muốn xem bàn nào đang được hộp với bàn nào. Ở trên giao diện, người dùng ấn chọn danh sách gộp bàn để hiển thị thông tin chi tiết các bàn đang được gộp với nhau
+
+<b style="font-size: 20px;color: orange;">Chức năng thống kê</b>
+        
+Người dùng chọn màn hình “ Thống kê và báo cáo “ trên giao diện
+
+Ở giao diện này , người dùng sẽ có thể thống kê được các “ hóa đơn trong tuần”, “ Doanh thu trong tuần “ , “ số lượng bàn bị hủy “ , “ Doanh thu của nhân viên “
+-  Nhân viên có thể lọc theo ngày : 
+Bước 1 : Nhân viên chọn ngày bắt đầu và ngày kết thúc và ấn nút lọc
+Người dùng bắt buộc phải chọn 2 ô “ ngày bắt đầu “ và ngày kết thúc .
+Người dùng  chọn ngày kết thúc phải lớn hơn ngày bắt đầu
+Bước 2 : Hệ thống hiển thị sau khi người dùng lọc
+
+
+Bước 3 : Người dùng có thể xem số liệu của thống kê
+Người dùng chọn chi tiết và hệ thống sẽ hiển thị
+
+Bước 4 : Nhân viên cũng có thể thống kê “ Số lượng món ăn bán chạy “ tương tự
+
+
+<b style="font-size: 20px;color: orange;">Chức năng báo cáo</b>
+
+Bước 1 :  Người dùng chọn tab “ báo cáo “ và hệ thống hiển thị giao diện
+
+Bước 2 :  Sau khi hiển thị giao diện
+Hướng dẫn : 
+Số dư đầu ca : Là số tiền trong hệ thống có ban đầu
+Tổng doanh thu : Là số tiền từ khi nhân viên bắt đầu ca làm việc đến khi kết ca
+Số dư tiền mặt : Nhân viên sẽ nhập vào số tiền mà số tiền nhân viên làm được trong ca đó và cộng với số dư ban đầu trong hệ thống
+      
+Bước 2 :  Người dùng nhập vào số dư tiền mặt và ấn kết ca
+Nếu người dùng nhập vào và hệ thống sẽ tính độ chênh lệch giữa số tiền hệ thống tính tổng từ số dư            đầu ca cộng với tổng doanh thu của nhân viên làm ca đó mà có sự chênh lệch với số tiền mặt mà nhân viên nhập vào thì hệ thống sẽ thông báo lỗi
+
+- Khi người dùng nhập đúng số tiền và hệ thống ghi nhận và sẽ hiển thị thống báo
+
+Bước 3 :  Người dùng có thể chọn in “ báo cáo kết ca“
+
+<b style="font-size: 20px;color: orange;">Chức năng thanh toán (thanh toán hóa đơn của bàn)</b>
+        
+Bước 1: Chọn chức năng quản lý hóa đơn trên giao diện chính
+
+Bước 2: Chọn hóa đơn muốn thanh toán và nhấn nút “Thanh toán” để vào hóa đơn mà bạn muốn thanh toán, Hóa đơn mà bạn chọn sẽ hiện các thông tin như hình bên dưới.
+
+Bước 3: Bạn có thể áp khuyến mãi gồm 3 loại (Phần trăm, Quà tặng, Tiền) mà khách hàng có. Ở đây trong danh sách khuyến mãi mà khách hàng có. Nó sẽ luôn ưu tiên hiển thị giá trị khuyến mãi lớn nhất của cùng 1 loại để giúp khách hàng được lợi lớn nhất.
+
+Bước 4: Sau khi bạn đã chọn khuyến mãi mà khách hàng có, hệ thống sẽ tính toán lại hóa đơn, và bạn có thể chọn số tiền khách đưa theo 6 gợi ý mà hệ thống đề xuất hoặc bạn có thể nhập số tiền khách đưa (Chỉ có thể nhập số, nếu bạn nhập chữ thì sẽ hiển thị thông báo lỗi và sẽ xóa chữ bạn nhập đi).
+
+Khi bạn đã chọn hoặc nhập số tiền khách đưa rồi thì hệ thống sẽ tính toán số tiền trả lại cho khách.
+
+Sau đó bạn nhấn nút thanh toán để thanh toán, hệ thống sẽ hiện thông báo xác nhận.
+
+Sau khi bạn xác nhận hệ thống sẽ hiện thanh toán thành công, lúc này nút in hóa đơn sẽ có thể dùng và bạn có thể in hóa đơn.
+
+Khi bạn nhấn in hóa đơn và xác nhận, nó sẽ in hóa đơn.
+
+
+
+
+</p>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                      
+                      
+                      
+                      
+                      
+                  </div>
+            </div>
+        </section>
+ </div>
+   </main>
+    <footer>
+        <div class="container">
+            <div class="main-content">
+                <div class="body">
+                    <div class="box">
+                        <div class="info-end1">
+                            <div class="tieude">
+                                <h1>Giới thiệu</h1>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    <a href="#!">Về Chúng Tôi</a>
+                                </p>
+                                <!-- <p>
+                                    <a href="#!">Sản phẩm</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Khuyến mãi</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Tuyển dụng</a>
+                                </p> -->
+                            </div>
+                        </div>
+
+                        <div class="info-end2">
+                            <div class="tieude">
+                                <h1>Điều khoản</h1>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    <a href="#!">Điều khoản sử dụng</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Chính sách bảo mật thông tin</a>
+                                </p>
+                                <!-- <p>
+                                    <a href="#!">Hướng dẫn xuất hóa đơn GTGT</a>
+                                </p> -->
+                            </div>
+                        </div>
+
+                        <div class="info-end3">
+                            <div class="tieude">
+                                <div class="icon"><i class="fa-solid fa-phone" style="color: #74C0FC;"></i></div>
+                                <h1> Liên hệ: 0786012569</h1>
+                            </div>
+                            <div class="tieude2">
+                                <div class="icon"><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i></div>
+                                <h1>Liên hệ</h1>
+                            </div>
+                            <div class="info">
+                                <p>Tầng 1-3 Nhà hàng Oxy</p>
+                                <p>12 Nguyễn Văn Bảo,P.4,</p>
+                                <p>Gò vấp, Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="info-end4">
+                            <div class="title">
+                                <h1><a href="#!">Nhà hàng Oxy</a></h1>
+                            </div>
+                            <div class="icon">
+                                <div class="icon1"><a href="https://www.facebook.com/share/19pPCozUgi/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"
+                                            style="color: #fff;"></i></a></i></div>
+                                <div class="icon2"><a href="#!"><i class="fa-brands fa-square-instagram"
+                                            style="color: #fff;"></i></a></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/search.js"></script>
+</body>
+
+</html>

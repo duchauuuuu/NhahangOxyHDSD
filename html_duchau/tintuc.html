@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/tintuc.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <script src="../boostrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/tintuc_responsive.css">
+    <title>Nhà hàng Oxy</title>
+    <script src="../js/loader.js"></script>
+</head>
+
+<body>
+    <div class="loader" style="width: 100%;"><p style="position: absolute; z-index: 1;">Đang loading</p></div>
+    <header class="header fixed">
+        <div class="main-content">
+            <div class="body">
+                <div class="head-top">
+                    <div class="khoi-logo">
+                        <label for="menu-checkbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                class="menu-header_icon">
+                                <path fill="currentColor"
+                                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                            </svg></label>
+
+                       
+                        <div class="logo"><a href="../html_duchau/tintuc.html"><img src="../img/logoNhaHang-removebg-preview.png" alt="HVH Drinks" class="img-logo" id="showloader"></a>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <!-- <input type="text" name="search" placeholder="Tìm kiếm">
+                        <a href="#!" class="icon-timkiem"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #cca336;"></i></a>
+                        <div class="products">
+                    
+                            </div> -->
+                    
+                    </div>
+                    <div class="login">
+                        <!-- <h1><a href="../RegularException/html/Index.html" style="color: #cca336;" id="showloader">Đăng nhập</a></h1>
+                        <button class="btn"><span>Giỏ hàng</span> <a href="#!"><i class="fa-solid fa-cart-shopping"
+                                    style="color: #1e4b24;"></i></a></button>
+                        <div class="toggle-switch">
+                            <label for="switch" style="width: 100px;">
+                                <input type="checkbox" name="switch" id="switch" hidden>
+                                <span class="slider"></span>
+                            </label>
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="head-bottom">
+                    <ul id="navbar_list--pc">
+                        <li style="margin-left: -1300px;">
+                            <a href="../html_duchau/tintuc.html" id="showloader">Trang chủ</a>
+                        </li>
+                        <!-- <li class="drop-menu">
+                            <a href="#!">Sản phẩm <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li style="width: 100%;">
+                                    <a href="../Baitapnhom_Hoang/html/thucuong.html" id="showloader">Đồ uống</a>
+                                </li>
+                                <li style="width: 120px;">
+                                    <a href="../Baitapnhom_Hoang/html/bakery.html" id="showloader">Tráng miệng</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="drop-menu">
+                            <a>Tin tức & Sự kiện <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li style="width: 200px">
+                                    <a href="../html_duchau/tintuc.html" id="showloader">Tin tức khuyến mãi</a>
+                                </li>
+                                <li style="width: 200px;">
+                                    <a href="../html_duchau/sukien.html" id="showloader">Sự kiện</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../html_duchau/tuyendung.html"  id="showloader">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/gioithieu.html" id="showloader">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/chinhsachthanhvien.html" id="showloader">Thẻ thành viên</a>
+                        </li>
+                        <li>
+                            <a href="../Baitapnhom_Hoang/html/chinhsachbaomatthongtin.html" id="showloader">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="../RegularException/html/Contact.html" id="showloader">Liên hệ</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-header">
+        <!-- table/mobile menu -->
+        <input type="checkbox" name="menu-checkbox" id="menu-checkbox" class="menu-checkbox" hidden>
+        <label for="menu-checkbox" class="menu-overlay"></label>
+
+        <div class="menu-drawer">
+            <div class="menu-drawer_top">
+                <div> <a href="#!"><img src="../img/logo.png" alt="HVH Drinks" class="menu-drawer_logo"
+                            style="width: 60px; height: 60px;"></a></div>
+                <label for="menu-checkbox"><svg class="close_menu" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+                    </svg></label>
+            </div>
+            <!-- nav mobile -->
+            <ul id="navbar_list--mobile"></ul>
+            <script>
+                const navPC = document.querySelector("#navbar_list--pc")
+                const navMobile = document.querySelector("#navbar_list--mobile")
+                navMobile.innerHTML = navPC.innerHTML
+            </script>
+            <div class="separate">
+
+            </div>
+            <div class="show-on-mobile">
+                <h1><a href="#!" style="color: #cca336;">Đăng nhập</a></h1>
+                <button class="btn"><span>Giỏ hàng</span> <a href="#!"><i class="fa-solid fa-cart-shopping"
+                            style="color: #1e4b24;"></i></a></button>
+
+            </div>
+
+        </div>
+    </div>
+   <main>
+ <div class="container">
+        <section class="section_tintuc">
+            <div class="box_tintuc-left">
+                <div class="tintuc_menu_title" style="color: #d3b673;">HƯỚNG DẪN SỬ DỤNG</div>
+                <div class="tintuc_menu_list-item">
+                    <ul>
+                        <li>
+                            <a href="../html_duchau/huongdansudungnhanvien.html" style="color: #282828;font-weight: 600;">Chức năng của nhân viên</a>
+                        </li>
+                        <li><a href="../html_duchau/huongdansudungquanly.html" style="color: #282828;font-weight: 600;">Chức năng của quản lý</a></li>
+                        <!-- <li><a href="../html_duchau/sukien.html" style="color: #282828;font-weight: 600;">Sự kiện</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="box_tintuc_right">
+                  <div class="box_tintuc-main" style="color: #282828;" >Lịch sử phát triển nhà hàng</div>
+                  <div class="box_tintuc-content" style="margin-top: 10%;">
+                    <div class="content1">
+                        <div class="contentle">
+                            <img src="../img/licchsunhahang1.jpg" alt="">
+                            <div class="title" ><h3 style="color:#333333;">Nhà hàng Oxy khởi nghiệp với 4 thành viên là Hậu, Anh, Duy, Anh</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Nhà hàng Oxy được thành lập dựa trên niềm đam mê ẩm thực và mong muốn mang đến trải nghiệm độc đáo cho thực khách. Câu chuyện bắt đầu từ một căn bếp nhỏ, nơi những món ăn đầu tiên được chế biến bằng tình yêu và tâm huyết. Qua từng món ăn, chúng tôi không chỉ chia sẻ hương vị mà còn truyền tải những câu chuyện và văn hóa đặc sắc.</p></div>
+                        </div>
+                        <div class="contentri">
+                            <img src="../img/co-nen-mo-nha-hang-an-uong-khong.jpg" alt="">
+                            <div class="title"><h3 style="color: #333333;">Giai Đoạn Hình Thành Ý Tưởng</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Năm 2024, khi chúng tôi nhận ra nhu cầu ngày càng cao về những bữa ăn chất lượng, thơm ngon và mang phong cách riêng, ý tưởng xây dựng một nhà hàng đã nhen nhóm. Lấy cảm hứng từ [đặc điểm hoặc loại hình ẩm thực bạn muốn nhấn mạnh, ví dụ: ẩm thực truyền thống Việt Nam, phong cách châu Á, hoặc kết hợp hiện đại], nhà hàng ra đời với sứ mệnh mang đến niềm vui trọn vẹn qua từng bữa ăn.</p></div>
+                        </div>
+                    </div>
+
+                    <div class="content2">
+                        <div class="contentle">
+                            <img src="../img/6.jpg" alt="">
+                            <div class="title" ><h3 style="color:#333333;">Những Bước Đi Đầu Tiên</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Ban đầu, nhà hàng gặp không ít khó khăn, từ việc lựa chọn địa điểm, thiết kế thực đơn, đến tìm kiếm nguồn nguyên liệu tươi ngon. Tuy nhiên, với sự quyết tâm và sáng tạo, nhà hàng đã không ngừng cải tiến để phù hợp hơn với thị hiếu khách hàng. Chúng tôi tự hào sử dụng nguyên liệu tươi sạch và đảm bảo chất lượng trong từng món ăn.</p></div>
+                        </div>
+                        <div class="contentri">
+                            <img src="../img/Screenshot 2024-12-11 185719.png" alt="">
+                            <div class="title"><h3 style="color: #333333;">Thành Công Và Phát Triển</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Sau nhiều năm hoạt động, nhà hàng đã trở thành điểm đến quen thuộc cho [mô tả đối tượng khách hàng, ví dụ: gia đình, bạn trẻ, nhân viên văn phòng]. Không chỉ phục vụ tại chỗ, chúng tôi còn mở rộng sang các dịch vụ đặt hàng trực tuyến và tổ chức sự kiện, mang đến sự tiện lợi tối đa cho khách hàng.</p></div>
+                        </div>
+                    </div>
+
+                    <div class="content3">
+                        <div class="contentle">
+                            <img src="../img/7.jpg" alt="">
+                            <div class="title" ><h3 style="color:#333333;">Giá Trị Cốt Lõi</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Chúng tôi luôn đặt chất lượng và sự hài lòng của khách hàng lên hàng đầu. Với đội ngũ đầu bếp lành nghề và nhân viên tận tâm, nhà hàng [Tên nhà hàng] cam kết giữ vững phong cách phục vụ chuyên nghiệp và không ngừng sáng tạo để mang đến những trải nghiệm tốt nhất.</p></div>
+                        </div>
+                        <div class="contentri">
+                            <img src="../img/8.png" alt="">
+                            <div class="title"><h3 style="color: #333333;">Tầm Nhìn Tương Lai</h3></div>
+                            <div class="desc"><p style="color: #4d4d4d;font-weight: 400;">Nhìn về phía trước, chúng tôi đặt mục tiêu mở rộng thương hiệu đến nhiều khu vực hơn và tiếp tục sáng tạo những món ăn mới lạ, đáp ứng xu hướng ẩm thực hiện đại. Nhà hàng sẽ luôn là nơi gắn kết những khoảnh khắc hạnh phúc của bạn cùng người thân và bạn bè.</p></div>
+                        </div>
+                    </div>
+
+
+                  </div>
+            </div>
+        </section>
+ </div>
+   </main>
+    <footer>
+        <div class="container">
+            <div class="main-content">
+                <div class="body">
+                    <div class="box">
+                        <div class="info-end1">
+                            <div class="tieude">
+                                <h1>Giới thiệu</h1>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    <a href="#!">Về Chúng Tôi</a>
+                                </p>
+                                <!-- <p>
+                                    <a href="#!">Sản phẩm</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Khuyến mãi</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Tuyển dụng</a>
+                                </p> -->
+                            </div>
+                        </div>
+
+                        <div class="info-end2">
+                            <div class="tieude">
+                                <h1>Điều khoản</h1>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    <a href="#!">Điều khoản sử dụng</a>
+                                </p>
+                                <p>
+                                    <a href="#!">Chính sách bảo mật thông tin</a>
+                                </p>
+                                <!-- <p>
+                                    <a href="#!">Hướng dẫn xuất hóa đơn GTGT</a>
+                                </p> -->
+                            </div>
+                        </div>
+
+                        <div class="info-end3">
+                            <div class="tieude">
+                                <div class="icon"><i class="fa-solid fa-phone" style="color: #74C0FC;"></i></div>
+                                <h1> Liên hệ: 0786012569</h1>
+                            </div>
+                            <div class="tieude2">
+                                <div class="icon"><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i></div>
+                                <h1>Liên hệ</h1>
+                            </div>
+                            <div class="info">
+                                <p>Tầng 1-3 Nhà hàng Oxy</p>
+                                <p>12 Nguyễn Văn Bảo,P.4,</p>
+                                <p>Gò vấp, Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="info-end4">
+                            <div class="title">
+                                <h1><a href="#!">Nhà hàng Oxy</a></h1>
+                            </div>
+                            <div class="icon">
+                                <div class="icon1"><a href="https://www.facebook.com/share/19pPCozUgi/?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"
+                                            style="color: #fff;"></i></a></i></div>
+                                <div class="icon2"><a href="#!"><i class="fa-brands fa-square-instagram"
+                                            style="color: #fff;"></i></a></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/search.js"></script>
+</body>
+
+</html>
